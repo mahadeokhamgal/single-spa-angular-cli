@@ -16,6 +16,14 @@ const routes: Routes = [{
     loadChildren: () => import('./spa-host/spa-host.module').then(m => m.SpaHostModule),
     data: { app: 'child2' }
   }]
+},
+{
+  path: 'child3',
+  children: [{
+    path: '**',
+    loadChildren: () => import('./spa-host/spa-host.module').then(m => m.SpaHostModule),
+    data: { app: 'child3' }
+  }]
 }];
 
 @NgModule({
