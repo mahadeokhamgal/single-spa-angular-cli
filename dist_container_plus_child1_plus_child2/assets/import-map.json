@@ -1,6 +1,7 @@
 {
   "imports": {
     "child1": "http://localhost:3000/child1/main.js",
-    "child2": "http://localhost:3000/child2/main.js"
+    "child2": "http://localhost:3000/child2/main.js",
+    "child3": "http://localhost:3000/child3/main.js"
   }
 }
