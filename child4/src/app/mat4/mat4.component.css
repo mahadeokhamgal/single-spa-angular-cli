@@ -1,0 +1,79 @@
+/* .search__form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .search__form_field {
+    width: 250px;
+    margin: 0 8px 16px 8px;
+  }
+  .search__table {
+    margin: 0 18px 18px 18px;
+  }
+  table {
+    width: 100%;
+  }
+  
+  h1 {
+    color: #80cbc4;
+    text-align: center;
+  }
+  /* default and hover color */
+ 
+  /* .mat-dialog-content {
+    padding: 10px !important;
+}
+mdc-dialog__surface{  
+  mat-form-field{
+    margin: 20px;
+  } 
+*/
+
+  table {
+    width: 100%;
+}
+
+mat-form-field.mat-form-field {
+  width: 30%;
+  margin-left: 400px;
+}
+
+mat-paginator {
+  margin-right: 700px;
+}
+
+.mat-mdc-cell {
+  padding-left: 12px;
+  padding-right: 12px;
+  border-left: 1px solid black;
+}
+
+.mat-mdc-header-cell  {
+  padding-left: 12px;
+  padding-right: 12px;
+  border-left: 1px solid black;
+}
+
+.mat-mdc-table{
+  border-bottom: 1px solid black;
+} 
+
+ .mat-mdc-header-row {
+  background-color: antiquewhite;
+} 
+
+ .mat-mdc-row:nth-child(even){
+  background-color:aquamarine;
+} 
+
+/* .mat-mdc-row:nth-child(odd){
+  background-color:#f2fafa;
+}*/
+
+.selected {
+  background-color: #2aa3ad;
+}
+mat-form-field{
+  margin: 20px;
+} 
+
