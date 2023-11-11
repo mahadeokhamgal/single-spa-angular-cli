@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:single-spa:mattable": "ng build mattable --configuration production",
-    "serve:single-spa:mattable": "ng s --project mattable --disable-host-check --port 3001 --live-reload false"
+    "serve:single-spa:mattable": "ng s --project mattable --disable-host-check --port 4204 --live-reload false"
   },
   "private": true,
   "dependencies": {

@@ -27,7 +27,7 @@ import { APP_BASE_HREF } from '@angular/common';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [{provide: APP_BASE_HREF, useValue:'/child4/'}],
+  providers: [{provide: APP_BASE_HREF, useValue:'/#/child4/'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

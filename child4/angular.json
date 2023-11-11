@@ -32,7 +32,7 @@
               "libraryName": "mattable",
               "libraryTarget": "umd"
             },
-            "deployUrl": "http://localhost:3001/"
+            "deployUrl": "http://localhost:4204/"
           },
           "configurations": {
             "production": {

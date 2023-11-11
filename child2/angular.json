@@ -30,7 +30,7 @@
             "customWebpackConfig": {
               "path": "./extra-webpack.config.js"
             },
-            "deployUrl": "http://localhost:3000/child2/"
+            "deployUrl": "http://localhost:4202/"
           },
           "configurations": {
             "production": {
