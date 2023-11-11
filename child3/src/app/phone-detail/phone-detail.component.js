@@ -4,7 +4,7 @@ import { assetUrl, baseUrl } from '../../single-spa/asset-url.js';
 angular.
   module('phoneDetail').
   component('phoneDetail', {
-    templateUrl: baseUrl('phone-detail/phone-detail.template.html'),
+    templateUrl: baseUrl('app/phone-detail/phone-detail.template.html'),
     controller: ['$routeParams', 'Phone',
       function PhoneDetailController($routeParams, Phone) {
         var self = this;
