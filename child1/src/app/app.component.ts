@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'child1';
+  constructor(){
+    window.addEventListener('ADD_TO_CART', (ev)=>{
+      console.log("event caught in child 1", ev);
+    })
+  }
 }

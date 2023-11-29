@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'child2';
+  constructor(){
+    setTimeout(()=>{
+      console.log("broadcasting event from child2");
+      
+      window.dispatchEvent(new CustomEvent("ADD_TO_CART", {
+        detail: {
+          action: "didInitialize",
+          payload: 3
+        }
+      }));
+    }, 5000)
+    
+  }
 }
